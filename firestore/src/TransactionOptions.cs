@@ -51,8 +51,7 @@ public sealed class TransactionOptions {
   /// </summary>
   ///
   /// <remarks>
-  /// The default value is 5.
-  /// Must be greater than zero.
+  /// The default value is 5, and must be greater than zero.
   /// </remarks>
   public Int32 MaxAttempts {
     get {
